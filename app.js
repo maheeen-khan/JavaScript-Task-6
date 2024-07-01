@@ -28,3 +28,9 @@ for(var i = 0; i < matrix.length; i++){
 }
 
 
+//Write a program to print numeric counting from 1 to 10.
+
+document.write("<hr><br><b>Counting from 1 to 10.</b><br>")
+for(var k = 1; k <= 10; k++){
+    document.write(k + "<br>");
+}
