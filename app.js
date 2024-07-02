@@ -47,3 +47,17 @@ document.write("<hr><br><b>Table of " + tableNumber + "</b><br><br>");
 for (var m = 1; m <= till; m++) {
     document.write(tableNumber + " X " + m + " = " + tableNumber * m + "<br>");
 }
+
+
+//Write a program to print items of the following array using for loop:
+
+var fruits = ["Apple", "Banana", "Mango", "Orange", "Strawberry"];
+
+document.write("<hr>");
+for (var n = 0; n < fruits.length; n++) {
+    document.write(fruits[n] + "<br>");
+}
+document.write("<br>");
+for (var o = 0; o < fruits.length; o++) {
+    document.write("Element at index " + o + " is " + fruits[o] + "<br>");
+}
